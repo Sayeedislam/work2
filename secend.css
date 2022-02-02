@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 1066px;
+    margin: 0px auto;
+}
+
+.top_section {
+    width: 100%;
+    display: flex;
+    height: 412px;
+    gap: 13px;
+}
+
+.top_left_section {
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    /* background-color: orange; */
+    display: flex;
+    gap: 13px;
+}
+
+.top_left_single_box {
+    justify-content: space-between;
+    flex-basis: 48%;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: orange;
+}
+
+.box3 {
+    background-color: blue;
+}
+
+.box4 {
+    background-color: pink;
+}
+
+.top_middle_section {
+    flex-basis: 40%;
+    background-color: red;
+}
+
+.top_right_section {
+    display: flex;
+    flex-basis: 20%;
+    /* background-color: green; */
+    gap: 13px;
+    flex-direction: column;
+}
+
+.top_right_box1 {
+    height: 48%;
+    background: gray;
+}
+
+.top_right_box2 {
+    /* flex-basis: 48%; */
+    height: 48%;
+    background: green;
+}
+
+.middle_section {
+    width: 100%;
+    margin: 13px 0;
+    display: flex;
+    gap: 13px;
+}
+
+.middle_left_box {
+    flex-basis: 40%;
+    background-color: cadetblue;
+    height: 175px;
+}
+
+.middle_middle_section {
+    flex-basis: 20%;
+    background-color: rgb(90, 84, 72);
+    height: 175px;
+}
+
+.middle_right_section {
+    flex-basis: 40%;
+    background-color: hotpink;
+    height: 175px;
+}
+
+.bottom_section {
+    display: flex;
+    gap: 13px;
+}
+
+.bottom_left_section {
+    height: 373px;
+    width: 40%;
+    background: rgb(209, 207, 199);
+}
+
+.bottom_right_section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 60%;
+    /* height: 373px; */
+    /* background: gray; */
+    gap: 13px;
+}
+
+.bottom_box {
+    display: flex;
+}
+
+.botom1 {
+    /* height: 50%; */
+    flex-basis: 31%;
+    background-color: rgb(129, 31, 80);
+}
+
+.botom2 {
+    /* height: 50%; */
+    flex-basis: 32%;
+    background: rgb(44, 255, 0);
+}
+
+.botom3 {
+    flex-basis: 32%;
+    background: blue;
+}
+
+.botom4 {
+    flex-basis: 31%;
+    background: rgb(219, 190, 14);
+}
+
+.botom5 {
+    flex-basis: 32%;
+    background: orange;
+}
+
+.botom6 {
+    flex-basis: 32%;
+    background: aqua;
+}
